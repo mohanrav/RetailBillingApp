@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2025-11-30 19:21:43",
+        "items": [
+            {
+                "code": "1",
+                "type": "tops",
+                "qty": 3,
+                "price": 10.12,
+                "discount_applied": 10,
+                "line_total": 27.323999999999998
+            }
+        ],
+        "total": 27.323999999999998,
+        "cash": 30.0,
+        "change": 2.676000000000002
+    },
+    {
+        "date": "2025-11-30 19:32:38",
+        "items": [
+            {
+                "code": "1",
+                "type": "tops",
+                "qty": 2,
+                "price": 10.12,
+                "discount_applied": 5,
+                "line_total": 19.227999999999998
+            },
+            {
+                "code": "1",
+                "type": "tops",
+                "qty": 2,
+                "price": 10.12,
+                "discount_applied": 5,
+                "line_total": 19.227999999999998
+            }
+        ],
+        "total": 38.455999999999996,
+        "cash": 40.0,
+        "change": 1.544000000000004
+    },
+    {
+        "date": "2025-11-30 19:40:43",
+        "items": [
+            {
+                "code": "4",
+                "type": "shorts",
+                "qty": 10,
+                "price": 12.0,
+                "discount_applied": 10,
+                "line_total": 108.0
+            }
+        ],
+        "total": 108.0,
+        "cash": 120.0,
+        "change": 12.0
+    },
+    {
+        "date": "2025-12-22 13:07:57",
+        "items": [
+            {
+                "code": "2",
+                "type": "shirt",
+                "qty": 2,
+                "price": 20.0,
+                "discount_applied": 2,
+                "line_total": 39.2
+            }
+        ],
+        "total": 39.2,
+        "cash": 50.0,
+        "change": 10.799999999999997
+    }
+]
