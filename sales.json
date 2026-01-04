@@ -70,5 +70,40 @@
         "total": 39.2,
         "cash": 50.0,
         "change": 10.799999999999997
+    },
+    {
+        "type": "sale",
+        "sale_id": "20260104125117",
+        "date": "2026-01-04 12:51:17",
+        "items": [
+            {
+                "code": "1",
+                "type": "tops",
+                "qty": 25,
+                "price": 10.12,
+                "discount_applied": 0,
+                "line_total": 252.99999999999997
+            }
+        ],
+        "total": 252.99999999999997,
+        "tender": {
+            "method": "card",
+            "last4": "1234",
+            "card_token": "CARD-1234-125117"
+        }
+    },
+    {
+        "type": "return",
+        "return_id": "20260104125243",
+        "original_sale_id": "20260104125117",
+        "date": "2026-01-04 12:52:43",
+        "items": [
+            {
+                "code": "1",
+                "qty": 25,
+                "refund_amount": 252.99999999999997
+            }
+        ],
+        "total_refund": 252.99999999999997
     }
 ]

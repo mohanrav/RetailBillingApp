@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\AppReturnsFeature.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppReturnsFeature.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppReturnsFeature.py",
+              "DocumentMoniker": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\AppReturnsFeature.py",
+              "RelativeDocumentMoniker": "AppReturnsFeature.py",
+              "ToolTip": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\AppReturnsFeature.py",
+              "RelativeToolTip": "AppReturnsFeature.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-01-04T17:47:10.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "app.py",
               "DocumentMoniker": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\app.py",
               "RelativeDocumentMoniker": "app.py",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "inventory.json",
               "DocumentMoniker": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\inventory.json",
               "RelativeDocumentMoniker": "inventory.json",
@@ -63,8 +80,7 @@
               "RelativeToolTip": "inventory.json",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-01T00:07:24.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T00:07:24.744Z"
             }
           ]
         }
