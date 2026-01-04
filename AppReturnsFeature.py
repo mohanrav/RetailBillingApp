@@ -331,7 +331,25 @@ def show_sales_ui():
 
     cart = []
     total = 0.0
+        # ---------------------------------------------------------
+    # RIGHT-SIDE PRODUCT REFERENCE TABLE
+    # ---------------------------------------------------------
+    right_frame = tk.Frame(sales_frame)
+    right_frame.grid(row=0, column=4, rowspan=20, padx=20, sticky="ns")
 
+    tk.Label(right_frame, text="Product Reference", font=("Arial", 12, "bold")).pack(pady=5)
+
+    ref_table = ttk.Treeview(right_frame, columns=("code", "type"), show="headings", height=20)
+    ref_table.heading("code", text="Code")
+    ref_table.heading("type", text="Type")
+    ref_table.column("code", width=80, anchor="center")
+    ref_table.column("type", width=120, anchor="center")
+    ref_table.pack(fill="y", expand=True)
+
+    # Load inventory and populate table
+    inventory = load_inventory()
+    for item in inventory:
+        ref_table.insert("", tk.END, values=(item.get("code"), item.get("type")))
     def recalc_total():
         nonlocal total
         total = sum(item["line_total"] for item in cart)
@@ -726,24 +744,25 @@ def show_sales_ui():
         command=exit_app
     ).grid(row=10, column=2, pady=8, sticky="we")
 
-   def go_to_inventory_secure():
-    username = simpledialog.askstring("Manager Login", "Manager username:")
-    password = simpledialog.askstring("Manager Login", "Manager password:", show="*")
+    # ---------------- Manager-secured Inventory Access ----------------
+    def go_to_inventory_secure():
+        username = simpledialog.askstring("Manager Login", "Manager username:")
+        password = simpledialog.askstring("Manager Login", "Manager password:", show="*")
 
-    if (
-        username in users
-        and users[username]["password"] == password
-        and users[username]["role"] == "manager"
-    ):
-        show_inventory_ui()
-    else:
-        messagebox.showerror("Access Denied", "Manager credentials required")
+        if (
+            username in users
+            and users[username]["password"] == password
+            and users[username]["role"] == "manager"
+        ):
+            show_inventory_ui()
+        else:
+            messagebox.showerror("Access Denied", "Manager credentials required")
 
-tk.Button(
-    sales_frame,
-    text="Go to Inventory (Manager)",
-    command=go_to_inventory_secure
-).grid(row=11, column=0, columnspan=3, pady=6, sticky="we")
+    tk.Button(
+        sales_frame,
+        text="Go to Inventory (Manager)",
+        command=go_to_inventory_secure
+    ).grid(row=11, column=0, columnspan=3, pady=6, sticky="we")
 
     tk.Button(
         sales_frame,
@@ -751,8 +770,7 @@ tk.Button(
         command=show_returns_ui
     ).grid(row=12, column=0, columnspan=3, pady=6, sticky="we")
 
-
-# -------------------- Returns UI --------------------
+    # -------------------- Returns UI --------------------
 def show_returns_ui():
     for widget in root.winfo_children():
         widget.destroy()

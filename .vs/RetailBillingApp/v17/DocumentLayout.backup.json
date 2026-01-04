@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "AppReturnsFeature.py",
               "ToolTip": "C:\\Threat Modeling\\Discovery Research\\RetailBillingApp\\AppReturnsFeature.py",
               "RelativeToolTip": "AppReturnsFeature.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAwwF8BAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2026-01-04T17:47:10.318Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "app.py",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-12-01T00:16:36.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T00:16:36.824Z"
             },
             {
               "$type": "Document",
