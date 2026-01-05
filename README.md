@@ -16,6 +16,7 @@ It provides a complete workflow for small retail stores, including:
 
 The application is lightweight, file‑based, and requires no external database.
 
+See the Enhancements section below to see the latest feature added to this application. 
 ---
 
 ##  Features
@@ -184,8 +185,12 @@ These files act as a lightweight database.
 
 ---
 
-## 📌 Future Enhancements (Optional)
-To be decided
+## 📌 Future Enhancements (Returns Feature)
+Not added in this release. See AppReturnsfeature.py or Appreturnsfeature branch.
+
+---
+
+
 
 ---
 
