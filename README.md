@@ -16,7 +16,7 @@ It provides a complete workflow for small retail stores, including:
 
 The application is lightweight, file‑based, and requires no external database.
 
-See the Enhancements section below to see the latest feature added to this application. 
+
 ---
 
 ##  Features
@@ -194,6 +194,6 @@ Not added in this release. See AppReturnsfeature.py or Appreturnsfeature branch.
 
 ---
 
-## 🙌 Author
+##  Author
 Mohan Ravindran
 
