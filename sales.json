@@ -105,5 +105,26 @@
             }
         ],
         "total_refund": 252.99999999999997
+    },
+    {
+        "type": "sale",
+        "sale_id": "20260105105714",
+        "date": "2026-01-05 10:57:14",
+        "items": [
+            {
+                "code": "1",
+                "type": "tops",
+                "qty": 10,
+                "price": 10.12,
+                "discount_applied": 0,
+                "line_total": 101.19999999999999
+            }
+        ],
+        "total": 101.19999999999999,
+        "tender": {
+            "method": "card",
+            "last4": "1234",
+            "card_token": "CARD-1234-105714"
+        }
     }
 ]
